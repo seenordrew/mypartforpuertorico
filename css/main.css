@@ -1,11 +1,11 @@
-body {
-	margin: 0;
+@media (min-width: 600px) {
+	.image {
+		width: 60%;
+	}
 }
 
-@media screen and (min-width: 800px) {
-	.image {
-		width: 75%;
-	}
+body {
+	margin: 0;
 }
 
 .navbar {
@@ -25,6 +25,7 @@ body {
 	float: right;
 	margin-top: 6vw;
 	margin-right: 3vw;
+	padding-top: 3vw;
 	
 
 }
@@ -34,7 +35,7 @@ body {
 	font-family: garamond;
 	color: black;
 	text-decoration: none;	
-	padding: 0vw 3vw 0vw 3vw;
+	padding: 0vw 3vw 1vw 3vw;
 }
 
 .navbar-text:hover {
@@ -83,31 +84,13 @@ li {
 }
 
 .image {
-	width: 100%;
-	//margin: 0 !important;
-}
-
-.image-group {
-	display: inline-block;
-	padding: 1vw 0vw 1vw 0vw;
-}
-
-@ media (min-width: 500px) {
-	
-}
-
-.left-image {
-	//display: inline-block;
-	float: left;
-	width: 48%;
+	display: block;
+	width: 80%;
+	margin-top: 2vw;
+	margin-right: auto;
+	margin-bottom: 2vw;
+	margin-left: auto;
 	border: black solid 2px;
 	border-radius: 3px;
 }
 
-.right-image {
-	//display: inline-block;
-	float: right;
-	width: 48%;
-	border: black solid 2px;
-	border-radius: 3px;
-}
