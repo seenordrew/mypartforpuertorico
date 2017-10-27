@@ -80,6 +80,24 @@ li {
 	font-size: calc(30% + 2vw);
 }
 
+.box {
+    display: grid;
+    grid-template-areas:
+      "text"
+      "image";
+      //grid-template-columns: 1fr;
+      //grid-template-rows: 1fr 1fr;
+  }
+
+  .box-text {
+    grid-area: text;
+  }
+
+  .box-image {
+    grid-area: image;
+    width: 100%;
+  }
+
 .image {
 	display: block;
 	width: 90%;
@@ -117,7 +135,7 @@ li {
 	padding-bottom: 4%;
 }
 
-.grid {
+.grid, .grid-2images {
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-gap: 20px;
@@ -130,7 +148,7 @@ li {
 	box-shadow: 2px 2px 5px 2px rgba(158,156,158,1);
 }
 
-.grid img {
+.grid img, .grid-2images img {
 	max-width: 100%;
 }
 
