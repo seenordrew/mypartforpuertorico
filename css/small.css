@@ -19,7 +19,7 @@ body {
 	float: right;
 	margin-top: 5vw;
 	margin-right: 3vw;
-	padding-top: 3vw;
+	padding-top: 2.5vw;
 
 
 }
@@ -61,12 +61,17 @@ body {
 
 h1 {
 	text-align: center;
-	font-family: palatino;
-	text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.88);
+	font-family: garamond;
+	//text-shadow: 2px 2px 3px rgba(150, 150, 150, 0.88);
 }
 
 h2 {
 	text-align: center;
+}
+
+h3 {
+	font-family: palatino;
+	font-size: calc(50% + 1vw);
 }
 
 p {
