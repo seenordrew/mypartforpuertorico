@@ -88,6 +88,11 @@ h3 {
 	text-decoration: underline;
 }
 
+h4 {
+	font-family: "Crimson Text";
+	font-size: calc(30% + 1vw);
+}
+
 p {
 	font-family: 'Crimson Text';
 	font-size: calc(15% + 1.5vw);
