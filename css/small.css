@@ -12,7 +12,6 @@ body {
 .navbar-logo {
 	width: 15%;
 	padding: 2.5vw 0vw 2.5vw 2.5vw;
-
 }
 
 .navbar-links {
@@ -20,8 +19,6 @@ body {
 	margin-top: 5vw;
 	margin-right: 3vw;
 	padding-top: 2.5vw;
-
-
 }
 
 .navbar-text {
@@ -161,7 +158,7 @@ li {
 	border-radius: 5px;
 	max-width: 80%;
 	margin: auto;
-	
+
 }
 
 .grid-2images img {
