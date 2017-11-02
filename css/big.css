@@ -1,6 +1,5 @@
 body {
 	margin: 0;
-
 }
 
 .navbar {
@@ -12,10 +11,7 @@ body {
 
 .navbar-logo {
 	width: 15%;
-	margin: 2.5vw 0vw 2.5vw 2.5vw;
-	//border: 5px solid black;
-	//border-radius: 150px;
-
+	margin: 1.5vw 0vw 2.5vw 2.5vw;
 }
 
 .navbar-links {
@@ -34,11 +30,11 @@ body {
 }
 
 .navbar-text:hover {
-	text-shadow: 0px -1px 1px rgba(150, 150, 150, 0.9);
+	color: #0f53c1;
 }
 
 .navbar-text:active {
-	text-shadow: 0px -1px 1px rgba(150, 150, 150, 0.9);
+	color: #0f53c1;
 }
 
 .banner {
