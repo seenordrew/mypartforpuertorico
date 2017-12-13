@@ -87,6 +87,11 @@ li {
 	font-size: calc(30% + 1.75vw);
 }
 
+.donate-header {
+	font-size: 15px;
+	text-decoration: underline;
+}
+
 button {
 	padding: 1vw;
 	font-size: 1.5vw;
